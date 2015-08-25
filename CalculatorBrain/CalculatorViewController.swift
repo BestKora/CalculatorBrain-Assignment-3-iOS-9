@@ -26,8 +26,7 @@ class CalculatorViewController: UIViewController
     // Свойство, запоминающее результаты оценки стэка,
     // сделанные в Моделе CalculatorBrain
     // Его тип Result определен как перечисление enum
-    // в Моделе CalculatorBrain
-    
+    // в Моделе CalculatorBrain    
     var displayResult: CalculatorBrain.Result = .Value(0.0) {
         // Наблюдатель Свойства модифицирует две IBOutlet метки
         didSet {
