@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="SKH-Xo-2CA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="SKH-Xo-2CA">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -60,6 +60,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="28" y="226" width="84" height="35"/>
+                                </variation>
                                 <connections>
                                     <action selector="appendDigit:" destination="sJp-yF-5ov" eventType="touchUpInside" id="lNi-0z-C6h"/>
                                 </connections>
@@ -72,11 +75,14 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="120" y="226" width="84" height="35"/>
+                                </variation>
                                 <connections>
                                     <action selector="appendDigit:" destination="sJp-yF-5ov" eventType="touchUpInside" id="oSF-px-k1g"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1h-Wd-IUI">
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1h-Wd-IUI">
                                 <rect key="frame" x="249" y="337" width="102" height="58"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
@@ -84,6 +90,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="212" y="226" width="84" height="39"/>
+                                </variation>
                                 <connections>
                                     <action selector="appendDigit:" destination="sJp-yF-5ov" eventType="touchUpInside" id="prv-jC-ORv"/>
                                 </connections>
@@ -96,6 +105,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="304" y="226" width="84" height="35"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="iQe-rP-j5c"/>
                                 </connections>
@@ -108,6 +120,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="304" y="269" width="84" height="34.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="sCm-dI-x7b"/>
                                 </connections>
@@ -120,6 +135,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="304" y="313" width="84" height="35.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="dP7-wE-G4r"/>
                                 </connections>
@@ -132,6 +150,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="304" y="356" width="84" height="35"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="V5d-PF-g5D"/>
                                 </connections>
@@ -176,6 +197,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="28" y="182" width="84" height="35.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="zZG-RS-DB5"/>
                                 </connections>
@@ -188,6 +212,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="120" y="182" width="84" height="35.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="TDi-X4-SLP"/>
                                 </connections>
@@ -200,6 +227,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="212" y="182" width="84" height="35.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="mmT-Qa-Lgh"/>
                                 </connections>
@@ -212,6 +242,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="304" y="182" width="84" height="35.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="yhN-vo-KIB"/>
                                 </connections>
@@ -248,6 +281,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="28" y="269" width="84" height="34.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="appendDigit:" destination="sJp-yF-5ov" eventType="touchUpInside" id="XHf-d9-V3f"/>
                                 </connections>
@@ -260,6 +296,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="120" y="269" width="84" height="34.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="appendDigit:" destination="sJp-yF-5ov" eventType="touchUpInside" id="kAh-rD-ZUd"/>
                                 </connections>
@@ -272,6 +311,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="212" y="273" width="84" height="32"/>
+                                </variation>
                                 <connections>
                                     <action selector="appendDigit:" destination="sJp-yF-5ov" eventType="touchUpInside" id="16P-co-PIY"/>
                                 </connections>
@@ -284,11 +326,14 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="28" y="313" width="84" height="35.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="appendDigit:" destination="sJp-yF-5ov" eventType="touchUpInside" id="6vS-5q-m87"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bf-Zm-kT9">
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bf-Zm-kT9">
                                 <rect key="frame" x="138.5" y="468.5" width="102.5" height="58"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
@@ -308,6 +353,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="212" y="313" width="84" height="35.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="appendDigit:" destination="sJp-yF-5ov" eventType="touchUpInside" id="rcy-9v-tMm"/>
                                 </connections>
@@ -320,6 +368,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="212" y="356" width="84" height="35"/>
+                                </variation>
                                 <connections>
                                     <action selector="enter" destination="sJp-yF-5ov" eventType="touchUpInside" id="Q0O-TC-Iza"/>
                                 </connections>
@@ -332,6 +383,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="120" y="356" width="84" height="35"/>
+                                </variation>
                                 <connections>
                                     <action selector="appendDigit:" destination="sJp-yF-5ov" eventType="touchUpInside" id="NQW-Ae-V6O"/>
                                 </connections>
@@ -344,6 +398,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="28" y="356" width="84" height="35"/>
+                                </variation>
                                 <connections>
                                     <action selector="appendDigit:" destination="sJp-yF-5ov" eventType="touchUpInside" id="vM9-23-8gn"/>
                                 </connections>
@@ -384,7 +441,7 @@
                                     <action selector="backSpace:" destination="sJp-yF-5ov" eventType="touchUpInside" id="roe-zq-Ddr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bs7-Jh-Xfh">
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bs7-Jh-Xfh">
                                 <rect key="frame" x="249" y="140" width="102" height="57.5"/>
                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
@@ -404,6 +461,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="396" y="313" width="84" height="35"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="yp4-oD-XKk"/>
                                 </connections>
@@ -416,6 +476,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="396" y="270" width="84" height="35"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="7gj-Rw-UcI"/>
                                 </connections>
@@ -428,6 +491,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="396" y="226" width="84" height="35.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="XYs-SY-eC3"/>
                                 </connections>
@@ -452,12 +518,15 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="396" y="182" width="84" height="35.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="ZJN-ZZ-Ps4"/>
                                     <segue destination="OGn-b0-eou" kind="showDetail" identifier="Show Graph" id="7rq-TO-Y6f"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="633-0e-1BQ">
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="633-0e-1BQ">
                                 <rect key="frame" x="469.5" y="140" width="102.5" height="57.5"/>
                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
@@ -477,6 +546,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="488" y="354" width="84" height="35"/>
+                                </variation>
                                 <connections>
                                     <action selector="operate:" destination="sJp-yF-5ov" eventType="touchUpInside" id="AdK-AS-Nz8"/>
                                 </connections>
@@ -1165,7 +1237,7 @@
                                 <include reference="a0M-fH-aeC"/>
                                 <exclude reference="a6x-Qb-1ol"/>
                                 <include reference="aLa-5Z-mDH"/>
-                                <include reference="anz-gz-mlA"/>
+                                <exclude reference="anz-gz-mlA"/>
                                 <exclude reference="bmx-AI-wek"/>
                                 <exclude reference="dRc-ff-VFa"/>
                                 <exclude reference="dpc-mg-2Fw"/>
@@ -1224,7 +1296,7 @@
                                 <include reference="yfi-56-m4W"/>
                                 <include reference="yyY-5t-dQ6"/>
                                 <include reference="zOz-a7-6hs"/>
-                                <include reference="zZC-RY-hkT"/>
+                                <exclude reference="zZC-RY-hkT"/>
                                 <exclude reference="8ww-wb-D7i"/>
                                 <include reference="M52-Of-UzU"/>
                                 <include reference="Mc0-bZ-9uP"/>
@@ -1306,11 +1378,11 @@
                                 <include reference="tPN-ar-ktb"/>
                                 <exclude reference="Tqr-1Y-Jq0"/>
                                 <include reference="ecI-1K-4o1"/>
-                                <include reference="fq8-sP-aYq"/>
-                                <include reference="ljC-Jh-U6N"/>
+                                <exclude reference="fq8-sP-aYq"/>
+                                <exclude reference="ljC-Jh-U6N"/>
                                 <exclude reference="skW-uz-GRb"/>
                                 <exclude reference="AuZ-HP-tb8"/>
-                                <include reference="Gfa-Sz-ytc"/>
+                                <exclude reference="Gfa-Sz-ytc"/>
                                 <exclude reference="Klx-OP-MrD"/>
                                 <include reference="MvG-k5-CVd"/>
                                 <include reference="bxU-SU-dnu"/>
@@ -1337,7 +1409,7 @@
                                 <exclude reference="uGi-Pf-OzA"/>
                                 <include reference="Bhk-4C-RGj"/>
                                 <exclude reference="Qza-WX-rkc"/>
-                                <include reference="Rbl-Y2-ROS"/>
+                                <exclude reference="Rbl-Y2-ROS"/>
                                 <include reference="jWO-oJ-JYO"/>
                                 <exclude reference="sl6-AM-1xP"/>
                                 <include reference="3CR-TM-qC2"/>
@@ -1356,10 +1428,10 @@
                                 <include reference="gZM-Bu-ENK"/>
                                 <exclude reference="gdX-9O-fWO"/>
                                 <include reference="zmn-hj-oaX"/>
-                                <include reference="0IL-op-CDo"/>
+                                <exclude reference="0IL-op-CDo"/>
                                 <exclude reference="5ut-0h-OBH"/>
                                 <include reference="PAj-u4-ea9"/>
-                                <include reference="gko-KM-BVx"/>
+                                <exclude reference="gko-KM-BVx"/>
                                 <exclude reference="uFR-W6-2Yz"/>
                                 <exclude reference="0rn-pJ-cNe"/>
                                 <include reference="2n3-rF-7l8"/>
@@ -1375,9 +1447,9 @@
                                 <include reference="vvC-nO-w4W"/>
                                 <include reference="B1U-3E-anG"/>
                                 <exclude reference="BcG-7n-Jix"/>
-                                <include reference="Fui-fx-iRv"/>
+                                <exclude reference="Fui-fx-iRv"/>
                                 <exclude reference="eLs-Oj-cNO"/>
-                                <include reference="vsZ-XJ-8pS"/>
+                                <exclude reference="vsZ-XJ-8pS"/>
                                 <include reference="0W2-QG-KTR"/>
                                 <exclude reference="5HS-vj-7a7"/>
                                 <include reference="7qc-Fd-SSl"/>
@@ -1570,6 +1642,6 @@
         <image name="graph" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="czm-oh-mli"/>
+        <segue reference="7rq-TO-Y6f"/>
     </inferredMetricsTieBreakers>
 </document>

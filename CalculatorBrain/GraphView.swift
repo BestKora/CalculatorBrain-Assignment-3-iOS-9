@@ -29,7 +29,7 @@ struct Statistics:CustomStringConvertible {
             min = y
             max = y
         }
-        num++
+        num += 1
         avg = avg + (y - avg) / CGFloat(num)
         if y < min {min = y}
         if y > max {max = y}
@@ -94,7 +94,7 @@ class GraphView: UIView {
         // --- обнуление statistics
         statistics = Statistics ()
 
-        for var i = 0; i <= Int(bounds.size.width * contentScaleFactor); i++ {
+        for i in 0...Int(bounds.size.width * contentScaleFactor){
          
             point.x = CGFloat(i) / contentScaleFactor
             if let y = dataSource?.y((point.x - origin.x) / scale) {

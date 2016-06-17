@@ -369,18 +369,6 @@ class CalculatorFormatter: NSNumberFormatter {
         self.groupingSeparator = " "
         
     }
-    
-    // Swift 1.2 or above
-    static let sharedInstance = CalculatorFormatter()
-
-    // Swift 1.1
-/*    class var sharedInstance: CalculatorFormatter {
-        struct Static {
-            static let instance = CalculatorFormatter()
-        }
-        return Static.instance
-    }*/
-    
 }
 
 let formatter = CalculatorFormatter()
